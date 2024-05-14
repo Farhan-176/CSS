@@ -1,0 +1,24 @@
+h1:hover{
+    background-color: blue;
+    color: red;
+    transform: rotate(180deg);
+    position: absolute;
+    padding-left: 50%;
+}
+h1{
+    background-color: blueviolet;
+    transition: background-color 8s, color 6s, padding-left 10s, transform 3s;
+    transition-delay: 4s; 
+    transition-timing-function: ease-in; 
+}
+@keyframes index {
+    from  {
+        padding-left: 0%;
+    }
+    to{
+        padding-left: 50%;
+    }
+}
+h1{
+    animation: index duration timing-function delay iteration-count direction fill-mode;
+}
