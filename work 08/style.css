@@ -1,0 +1,10 @@
+.lorem{
+    margin: 20%;
+    border: 5px solid black;
+    padding: 20px;
+    border-width: 100px;
+    border-style: dotted;
+    border-color: aqua;
+    text-align: center;
+    display: block;
+}
