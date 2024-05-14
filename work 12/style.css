@@ -1,0 +1,30 @@
+table{
+    border-collapse: collapse;
+    width: 500px ;
+    margin: 150px 300px 150px 400px;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 10px 10px 0px 0px;
+    overflow: hidden;
+}
+thead{
+    background-color: green;
+    color: white;
+    text-align: left;
+}
+th,td{
+    padding: 15px 20px ;
+}
+tbody,tr{
+    border-bottom: 1px solid grey; 
+}
+.first:active{
+    background-color: lightgrey;
+    color: aqua;
+}
+.first:hover{
+    color: aqua;
+}
+.second{
+    border-bottom: 2px solid green;
+
+}
